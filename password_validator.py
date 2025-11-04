@@ -8,7 +8,7 @@ def is_password_secure():
       continue
       
       #Length of the password
-      if not len(password) < 8:
+      if len(password) < 8:
         print("Password must be at least 8 characters long")
         continue
         
